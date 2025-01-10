@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrindCraft Unblocked</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        iframe {
+            width: 90%;
+            height: 800px;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin: 20px 0;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Play GrindCraft Unblocked</h1>
+    <button onclick="loadGame()">Load Game</button>
+    <iframe id="gameFrame" src="" hidden></iframe>
+
+    <script>
+        function loadGame() {
+            const gameFrame = document.getElementById('gameFrame');
+            gameFrame.src = 'https://grindcraft.com/game.html';
+            gameFrame.hidden = false;
+        }
+    </script>
+
+</body>
+</html>
